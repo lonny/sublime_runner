@@ -19,8 +19,6 @@ So whether your files will reopen -- and even *which* files will be opened -- wh
 
 That is terribly inconsistent and I find it troublesome and aggravating.
 
-Thus this script.
-
 **What It Does**
 
 This script allows you to start Sublime Text via the command line with one simple command and get consistent results. Go to a project directory, type in "sublime", and your project files will reopen as they were when you last quit. Go to a different project, type "sublime", and get **that** project's last state restored. No need to remember the name of the .sublime-workspace file.
