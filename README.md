@@ -1,5 +1,5 @@
 # sublime_runner
-A tiny Ruby script that enables optional "reopen files" behavior in Sublime Text with the same ease as Textmate.
+A Ruby script enabling optional "reopen files" behavior in Sublime Text with the same ease as Textmate.
 
 **Why It Was Needed**
 
