@@ -43,7 +43,7 @@ After that, just go to the project directory in your terminal or console, type "
 
 It will find the .sublime-workspace file in that directory and open Sublime Text using that saved information. If it doesn't find one, it will open the current directory in the sidebar with no files open in the editor.
 
-Simple and consistent.
+Every time. Simple and consistent.
 
 If you like, you can supply a filename: "sublime foo" to open a single file. Or "sublime ~/bar" to open the ~/bar directory.
 
