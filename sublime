@@ -1,0 +1,19 @@
+#!/Users/lonny/.rvm/rubies/ruby-2.3.0/bin/ruby
+
+##  ^^^^^ That line up there must be the path to YOUR ruby interpreter.
+
+cmd = '.'
+if ARGV[0]
+  cmd = ARGV[0]
+else
+  items = Dir.entries('.')
+  items.each do |item|
+    if item.include?('sublime-workspace')
+      cmd = item
+      break
+    end
+  end
+end
+## Edit the next line of code if the path to your Sublime Text is different (e.g., if you're using Sublime Text 2).
+## Don't forget to double-escape any spaces in the path, as done here between "Sublime" and "Text".
+exec("/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl #{cmd}")
