@@ -9,7 +9,7 @@ This little script takes the frustration out of it.
 
 TextMate stores information about your project. When you start it up again in a project directory, it resumes pretty much where you left off. In a different project directory, it opens that project's files in a similar manner.
 
-Sublime Text, not so much. If you have the "hot_exit" setting turned on, it will restore edited files and the state they were in when you last quit editing them, **only if** you quit the whole program, not if you just closed the window. If you close the window and open a new one, or restart the editor, your files will not be reopened.
+Sublime Text, not so much. If you have the "hot_exit" setting turned on, it will restore edited files and the state they were in when you last quit editing them, **only if** you quit the whole program, not if you just closed the window. If you close the window and then open a new one or restart the editor, your files will not be reopened.
 
 Worse: if you "hot exit", then switch to a different project directory and start it again, the files from the first project will be opened, not the current project.
 
